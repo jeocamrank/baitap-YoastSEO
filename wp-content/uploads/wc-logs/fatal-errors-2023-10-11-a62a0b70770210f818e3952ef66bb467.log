@@ -1,0 +1,383 @@
+2023-10-11T14:41:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1627)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:41:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:41:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\update.php(16): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:41:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\plugin-install.php(16): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\index.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1689)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\about.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:42:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\about.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:44:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1689)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:44:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:44:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:46:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1689)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:46:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:46:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:48:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1626)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\index.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:48:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1689)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:48:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:48:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1648)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:51:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1630)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin.php(34): require_once('D:\\Xampp\\htdocs...')
+#12 D:\Xampp\htdocs\violet\wp-admin\plugins.php(10): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
+2023-10-11T14:51:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', 'D:\\Xampp\\htdocs...', 179)
+#1 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #1693)
+#2 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(1227): rsssl_certificate->is_valid()
+#4 D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-admin.php(134): rsssl_admin->detect_configuration()
+#5 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(310): rsssl_admin->init('')
+#6 D:\Xampp\htdocs\violet\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Xampp\htdocs\violet\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Xampp\htdocs\violet\wp-settings.php(495): do_action('plugins_loaded')
+#9 D:\Xampp\htdocs\violet\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\violet\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\violet\wp-admin\admin-ajax.php(22): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\violet\wp-content\plugins\really-simple-ssl-master\class-certificate.php on line 211
+
